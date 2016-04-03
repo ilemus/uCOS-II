@@ -283,7 +283,7 @@ static  void  Task1 (char *data)
 		OSMboxPost(TxMbox, (void *)&txmsg); /* Send message to Task #2 */
 		OSMboxPend(AckMbox, 0, &err); /* Wait for acknowledgement from Task #2 */
 		txmsg++; /* Next message to send */
-		if (txmsg == 'Z') {
+		if (txmsg == '[') {
 			txmsg = 'A'; /* Start new series of messages */
 		}
 	}

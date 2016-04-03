@@ -1,0 +1,11 @@
+.\flash\cpu_c.o: ..\..\..\..\..\uC-CPU\ARM-Cortex-M4\RealView\cpu_c.c
+.\flash\cpu_c.o: ..\..\..\..\..\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-CPU\cpu_def.h
+.\flash\cpu_c.o: ..\cpu_cfg.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-CPU\cpu_core.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-LIB\lib_def.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-LIB\lib_mem.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-CPU\cpu_core.h
+.\flash\cpu_c.o: ..\lib_cfg.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-LIB\lib_str.h
+.\flash\cpu_c.o: ..\..\..\..\..\uC-LIB\lib_ascii.h

@@ -1,0 +1,11 @@
+.\flash\bsp_int.o: ..\..\BSP\bsp_int.c
+.\flash\bsp_int.o: ..\..\..\..\..\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
+.\flash\bsp_int.o: ..\..\..\..\..\uC-CPU\cpu_def.h
+.\flash\bsp_int.o: ..\cpu_cfg.h
+.\flash\bsp_int.o: ..\..\..\..\..\uCOS-II\Source\os.h
+.\flash\bsp_int.o: ..\..\..\..\..\uCOS-II\Source\ucos_ii.h
+.\flash\bsp_int.o: ..\app_cfg.h
+.\flash\bsp_int.o: ..\os_cfg.h
+.\flash\bsp_int.o: ..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h
+.\flash\bsp_int.o: ..\..\BSP\..\bsp\bsp_int.h
+.\flash\bsp_int.o: ..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\..\..\..\..\..\uc-lib\lib_def.h
